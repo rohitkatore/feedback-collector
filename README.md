@@ -23,37 +23,7 @@ A full-stack web application for collecting and displaying user feedback. Users 
 
 ## Project Structure
 
-feedback-collector/
-├── frontend/ # React frontend application
-│ ├── public/ # Static assets
-│ ├── src/
-│ │ ├── components/ # React components
-│ │ │ ├── FeedbackCard.jsx
-│ │ │ ├── FeedbackForm.jsx
-│ │ │ ├── FeedbackList.jsx
-│ │ │ └── Footer.jsx
-│ │ ├── App.jsx # Main application component
-│ │ ├── main.jsx # Application entry point
-│ │ └── index.css # Global styles
-│ ├── index.html # HTML entry point
-│ ├── package.json # Frontend dependencies
-│ └── vite.config.js # Vite configuration
-│
-├── backend/ # Express backend application
-│ ├── controllers/ # Request handlers
-│ │ └── feedback.controller.js
-│ ├── models/ # Database models
-│ │ └── feedback.model.js
-│ ├── routes/ # API routes
-│ │ └── feedback.route.js
-│ ├── db/ # Database configuration
-│ │ └── db.js
-│ ├── app.js # Express application setup
-│ ├── server.js # Server entry point
-│ ├── .env # Environment variables
-│ └── package.json # Backend dependencies
-│
-└── README.md # Project documentation
+feedback-collector/ ├── frontend/ # React frontend application │ ├── public/ # Static assets │ ├── src/ │ │ ├── components/ # React components │ │ │ ├── FeedbackCard.jsx │ │ │ ├── FeedbackForm.jsx │ │ │ ├── FeedbackList.jsx │ │ │ └── Footer.jsx │ │ ├── App.jsx # Main application component │ │ ├── main.jsx # Application entry point │ │ └── index.css # Global styles │ ├── index.html # HTML entry point │ ├── package.json # Frontend dependencies │ └── vite.config.js # Vite configuration │ ├── backend/ # Express backend application │ ├── controllers/ # Request handlers │ │ └── feedback.controller.js │ ├── models/ # Database models │ │ └── feedback.model.js │ ├── routes/ # API routes │ │ └── feedback.route.js │ ├── db/ # Database configuration │ │ └── db.js │ ├── app.js # Express application setup │ ├── server.js # Server entry point │ ├── .env # Environment variables │ └── package.json # Backend dependencies | └── README.md # Project documentation
 
 ## Features
 
